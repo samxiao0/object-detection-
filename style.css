@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+}
+
+h1 {
+    color: #00796b; /* Teal color */
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+video, canvas {
+    border: 2px solid #00796b; /* Teal border */
+    border-radius: 5px;
+    margin: 10px;
+    width: 640px; /* Updated width */
+    height: 480px; /* Updated height */
+}
+
+button {
+    background-color: #00796b; /* Teal background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
