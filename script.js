@@ -6,7 +6,7 @@ let detectionFrequency = 100; // Detection every 100ms (10 FPS)
 
 // Color map for different object classes
 const colorMap = {
-    person: "red",
+    person: "yellow",
     bicycle: "blue",
     tv:"green",
     remote: "purple",
