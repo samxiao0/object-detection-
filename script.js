@@ -24,7 +24,7 @@ const colorMap = {
 async function startWebcam() {
     try {
         let stream = await navigator.mediaDevices.getUserMedia({
-            video: { width: 320, height: 240 }
+            video: { width: 640, height: 480 }
         });
         video.srcObject = stream;
     } catch (error) {
